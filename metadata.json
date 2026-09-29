@@ -1,0 +1,6 @@
+{
+  "name": "FloodPulse - Urban Flood Intelligence & Emergency Response Platform",
+  "description": "Agentic AI disaster coordination platform connecting citizens, emergency responders, dam operators, shelters, and city officials across multiple cities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
