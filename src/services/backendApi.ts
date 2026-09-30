@@ -5,7 +5,8 @@
  * while automatically activating live calculations when uvicorn is running.
  */
 
-const API_BASE = '/api';
+const BACKEND_URL = import.meta.env.VITE_API_URL || '';
+const API_BASE = ${BACKEND_URL}/api;
 
 export interface BackendHealth {
   online: boolean;
